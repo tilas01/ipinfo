@@ -30,6 +30,8 @@ def main():
             print('\n"exit" - Exit the application')
             print('"myip" - See your own ip info')
             print('"clear" - Clear the window\n')
+        elif command == "":
+            pass
         elif command == "clear":
             if name == "nt": #if on windows
                 system("cls")
